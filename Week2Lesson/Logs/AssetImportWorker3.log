@@ -1,0 +1,313 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/conno/Downloads/Week2Lesson
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62781
+Successfully changed project path to: C:/Users/conno/Downloads/Week2Lesson
+C:/Users/conno/Downloads/Week2Lesson
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21272] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 3695035445 [EditorId] 3695035445 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CJ27DOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21272] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 3695035445 [EditorId] 3695035445 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CJ27DOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/conno/Downloads/Week2Lesson/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007930 seconds.
+- Loaded All Assemblies, in  0.368 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling: 696ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (104ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.748 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (241ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (58.1 KB). Loaded Objects now: 2891.
+Memory consumption went from 112.4 MB to 112.4 MB.
+Total: 6.855200 ms (FindLiveObjects: 0.742000 ms CreateObjectMapping: 0.372900 ms MarkObjects: 5.541100 ms  DeleteObjects: 0.197500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35091.074312 seconds.
+  path: Assets/Prefabs/_GameManger.prefab
+  artifactKey: Guid(c178d0cd48290754090db39688a14bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/_GameManger.prefab using Guid(c178d0cd48290754090db39688a14bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f44380e2efe4ea6e90a666a4d9810d') in 0.034316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/WallClimbPowerup.prefab
+  artifactKey: Guid(0d0c651629fd7cd499fa4270c1eb7fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WallClimbPowerup.prefab using Guid(0d0c651629fd7cd499fa4270c1eb7fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f6b1486fb280102f8dc5d9dc8b7c93') in 0.056416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 15.937432 seconds.
+  path: Assets/LevelElementsArt/pink_gem_6.png
+  artifactKey: Guid(fe90de627ae9d9f488103754254b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelElementsArt/pink_gem_6.png using Guid(fe90de627ae9d9f488103754254b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457929bfc87f49d401e026c27ed9272b') in 0.099219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.018605 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_3.asset
+  artifactKey: Guid(cecf601e1eb0f0b4ba687c4c98f55ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_3.asset using Guid(cecf601e1eb0f0b4ba687c4c98f55ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5b61776f7e8cce75630488a21268e6') in 0.013591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_28.asset
+  artifactKey: Guid(2b3c7de480342a545a44bd5ff4068410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_28.asset using Guid(2b3c7de480342a545a44bd5ff4068410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d1a67be071da8a9f3a4c0363ab077a') in 0.009645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_59.asset
+  artifactKey: Guid(543d5cfa2be960f47b24e1da45ffad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_59.asset using Guid(543d5cfa2be960f47b24e1da45ffad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2661d5bd5d35607b1c0a80db4bc9846e') in 0.014393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_19.asset
+  artifactKey: Guid(f0baca2cd6553d242b0bb13f5a4fd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_19.asset using Guid(f0baca2cd6553d242b0bb13f5a4fd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2ff720b071e11bf842ae9b601b2898') in 0.010689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_25.asset
+  artifactKey: Guid(279e0c056e90f5f4f9a2c3e6fb5ceee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_25.asset using Guid(279e0c056e90f5f4f9a2c3e6fb5ceee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1107117031ffa0914ea460cbab4c8189') in 0.009422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_18.asset
+  artifactKey: Guid(d92bd836e4e47c44fa1a58397250e92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_18.asset using Guid(d92bd836e4e47c44fa1a58397250e92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3eea4577390dec31905979b65c95b39') in 0.009544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_58.asset
+  artifactKey: Guid(0fe1fcfc1b8d5ff40b48eea1f766292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_58.asset using Guid(0fe1fcfc1b8d5ff40b48eea1f766292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3f94ef39191ba897decdc85c3234e2') in 0.010262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_47.asset
+  artifactKey: Guid(b7c0f830b523409498f7ffbb31b9b2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_47.asset using Guid(b7c0f830b523409498f7ffbb31b9b2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004245d8c362ea3df6d88aaa4d2631b0') in 0.010180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_37.asset
+  artifactKey: Guid(813f422317b928d47b63b32b01a6130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_37.asset using Guid(813f422317b928d47b63b32b01a6130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56aa491e491b1dc7f668a0586b6b17b') in 0.014613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_15.asset
+  artifactKey: Guid(0ecc912c95d03b847951b76ac2a760a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_15.asset using Guid(0ecc912c95d03b847951b76ac2a760a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a874154037a193669e476bf22f4471') in 0.011919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_54.asset
+  artifactKey: Guid(9e174586479f5db4aaeeae5ed18d6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_54.asset using Guid(9e174586479f5db4aaeeae5ed18d6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7b7caa06d3b02849329a87d40eb29f') in 0.010678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_13.asset
+  artifactKey: Guid(11c513b2e61ad234db18e572d6a0f7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_13.asset using Guid(11c513b2e61ad234db18e572d6a0f7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aebf2bbf6d61ab5602886a9d1ec9ad') in 0.010651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_45.asset
+  artifactKey: Guid(83423dd0f676e1c49a56f3a3f04b639c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_45.asset using Guid(83423dd0f676e1c49a56f3a3f04b639c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9314fbc9376eb66195e1792eb8e3397') in 0.011950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_6.asset
+  artifactKey: Guid(116b7fa26ec8d3c42bace799606ff9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_6.asset using Guid(116b7fa26ec8d3c42bace799606ff9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecaa36d04881a3bbb5d48061597e89db') in 0.009889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3

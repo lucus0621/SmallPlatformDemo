@@ -1,0 +1,387 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/conno/Downloads/Week2Lesson
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62781
+Successfully changed project path to: C:/Users/conno/Downloads/Week2Lesson
+C:/Users/conno/Downloads/Week2Lesson
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21404] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 1768615968 [EditorId] 1768615968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CJ27DOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21404] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 1768615968 [EditorId] 1768615968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CJ27DOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/conno/Downloads/Week2Lesson/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008743 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 700ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (333ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (103ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (236ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (541ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (58.1 KB). Loaded Objects now: 2891.
+Memory consumption went from 112.4 MB to 112.4 MB.
+Total: 8.245300 ms (FindLiveObjects: 0.607200 ms CreateObjectMapping: 0.623200 ms MarkObjects: 6.831000 ms  DeleteObjects: 0.182000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35091.013928 seconds.
+  path: Assets/Prefabs/Collectible.prefab
+  artifactKey: Guid(d49bff3a9384766479b0cb391fd67a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectible.prefab using Guid(d49bff3a9384766479b0cb391fd67a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b3658e7b4edd40ba480d6d7e155b3f') in 0.119656 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(1d124fdcbf813964e92998e993b66c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(1d124fdcbf813964e92998e993b66c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a18fed99ba8376e31136380b2e18a4') in 0.000588 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Checkpoint.prefab
+  artifactKey: Guid(38d11515e0031ef44b6f078fe8cc2eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Checkpoint.prefab using Guid(38d11515e0031ef44b6f078fe8cc2eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d166b802dffa6cc64e3a1d18c23e0f') in 0.002459 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/DeathZone.prefab
+  artifactKey: Guid(5897690ffb0a3414986d9d5af36761f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeathZone.prefab using Guid(5897690ffb0a3414986d9d5af36761f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ac2916257bcd5e5c949cbf2c59a73b') in 0.002320 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(3c02ac99ebd71b24cb0f7c53261c4241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(3c02ac99ebd71b24cb0f7c53261c4241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc06249e532596a1bcc1d45cd8121cf') in 0.028977 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 15.930359 seconds.
+  path: Assets/LevelElementsArt/green_gem_7.png
+  artifactKey: Guid(b9660d74a2d91a14297427eab3ad0d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelElementsArt/green_gem_7.png using Guid(b9660d74a2d91a14297427eab3ad0d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e5dcb1784fda41494edcdc04292185') in 0.034182 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.083165 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_2.asset
+  artifactKey: Guid(39dddf07a1c013347b8810e6e8794abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_2.asset using Guid(39dddf07a1c013347b8810e6e8794abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cecfa93c214685e7a7ccd75ea89bc2') in 0.014145 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_12.asset
+  artifactKey: Guid(e7bdcf2ac3059dd43b74087d57997bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_12.asset using Guid(e7bdcf2ac3059dd43b74087d57997bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94eaaf10043eb20e4fef3484c70a5226') in 0.009496 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_57.asset
+  artifactKey: Guid(df55a583853182046b60e5f88f1e6a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_57.asset using Guid(df55a583853182046b60e5f88f1e6a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3370c4c1d0af13bc9c294e874f94283') in 0.014672 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_49.asset
+  artifactKey: Guid(dd2a59c181cd63841a9f6b11de5fdb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_49.asset using Guid(dd2a59c181cd63841a9f6b11de5fdb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd16936a92d3bcc512948fb5ef35535') in 0.011508 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_30.asset
+  artifactKey: Guid(37b6970005eb32f4cb166ab3d8fb8e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_30.asset using Guid(37b6970005eb32f4cb166ab3d8fb8e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602ca1047d003c46756a0329b7b9db92') in 0.008597 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_53.asset
+  artifactKey: Guid(47be791a2f86b2a45b43658888eb59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_53.asset using Guid(47be791a2f86b2a45b43658888eb59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1d7eaed8fab5ca8dedabafaf9d7237') in 0.009232 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_38.asset
+  artifactKey: Guid(09fa861ac04164f42ac944ba22c768e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_38.asset using Guid(09fa861ac04164f42ac944ba22c768e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983c1692206bf91497c73d3563c6d29d') in 0.010430 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_33.asset
+  artifactKey: Guid(58db4790388ba8d4580f1876841a0626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_33.asset using Guid(58db4790388ba8d4580f1876841a0626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3333944309d274d9f6a4858973c1fdb3') in 0.009615 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_43.asset
+  artifactKey: Guid(06570658c0c171b41b89f51a9f2a2b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_43.asset using Guid(06570658c0c171b41b89f51a9f2a2b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adf66eaf5e09e3e182a0f049f80ec47') in 0.010369 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_14.asset
+  artifactKey: Guid(e7017370162341c44ad402ca35cf6ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_14.asset using Guid(e7017370162341c44ad402ca35cf6ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67570938d996add2421f727af5003620') in 0.014080 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_21.asset
+  artifactKey: Guid(a384ee6c5ab63dd4299b9b39dd1b6223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_21.asset using Guid(a384ee6c5ab63dd4299b9b39dd1b6223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5377b9d519c07dc5ccff4fb64901fbb1') in 0.012459 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_17.asset
+  artifactKey: Guid(f1b9e2f21d972704ab2d1932ac16b0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_17.asset using Guid(f1b9e2f21d972704ab2d1932ac16b0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5e1989cb54a22df9b864b3373f34a5') in 0.010559 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_44.asset
+  artifactKey: Guid(3a96142ef1ca6d74ea2446e235841d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_44.asset using Guid(3a96142ef1ca6d74ea2446e235841d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd107be4ff6ccfab2b6c3fbc64c158e') in 0.010391 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_20.asset
+  artifactKey: Guid(715870a647818a64eb77ea7175c659a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_20.asset using Guid(715870a647818a64eb77ea7175c659a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1a17f91f2434a20677c9da65fae20e') in 0.011149 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_41.asset
+  artifactKey: Guid(d2271de21b0851e418423a99acee6269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor_Props/House_Indoor_Props_41.asset using Guid(d2271de21b0851e418423a99acee6269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a97b904ca367dbe33129ccb9bad6fe') in 0.010179 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
